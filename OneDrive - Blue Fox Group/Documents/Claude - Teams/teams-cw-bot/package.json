@@ -1,0 +1,17 @@
+{
+  "name": "bluefox-cw-teams-bot",
+  "version": "1.0.0",
+  "description": "Blue Fox Group — ConnectWise ticket bot for Microsoft Teams",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "botbuilder": "^4.23.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  }
+}
